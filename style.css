@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body {
+	background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bio {
+	color: black;
+	font-family: Century Gothic;
+	font-size: 45px;
+	font-weight: bold;
+	transition: transform .5s;
+}
+
+.big {
+	display: flex;
+	margin-left: 10%;
+}
+
+.name {
+	margin-top: 2%;
+}
+
+.flx {
+	flex: 1;
+}
+
+.ull{
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align:left;
+}
+
+.desc {
+	width: 50%;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	transition: transform .5s;
+}
+
+.desc:hover {
+	transform: scale(1.1);
+	background-color: #1d133541;
+}
+
+.desc3 {
+	width: 50%;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	transition: transform .5s;
+}
+
+.desc3:hover {
+	transform: scale(1.1);
+	background-color: #1d133541;
+}
+
+.desc2 {
+	width: 75%;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	transition: transform .5s;
+}
+
+.desc2:hover {
+	transform: scale(1.1);
+	background-color: #1d133541;
+}
+
+.person {
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	transition: transform .5s;
+}
+
+.person:hover {
+	transform: scale(1.1);
+}
+h2{
+  color: black;
+  font-family: 'Roboto Slab', serif;
+}
+p{
+  font-size: 20px;
+  color: black;
+}
+hr{
+  border-top: 4px dashed black;
+}
+.sib p{
+  margin-left: 2em;
+}
+.per{
+	text-align: left;
+}
